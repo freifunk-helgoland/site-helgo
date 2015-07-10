@@ -4,6 +4,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-announced \
 	gluon-autoupdater \
 	gluon-config-mode-autoupdater \
+	gluon-config-mode-core \
 	gluon-config-mode-hostname \
 	gluon-config-mode-mesh-vpn \
 	gluon-config-mode-reboot-ffhh \
@@ -16,6 +17,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-next-node \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
+	gluon-setup-mode \
 	gluon-status-page \
 	iwinfo \
 	iptables \
@@ -23,7 +25,7 @@ GLUON_SITE_PACKAGES := \
 
 
 
-DEFAULT_GLUON_RELEASE := 0.6
+DEFAULT_GLUON_RELEASE := 0.7.1
 # for experimental firmware:
 # DEFAULT_GLUON_RELEASE := 0.6+exp$(shell date '+%Y%m%d')
 
@@ -31,3 +33,5 @@ DEFAULT_GLUON_RELEASE := 0.6
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0
+
+GLUON_LANGS ?= en de

@@ -1,5 +1,5 @@
 #### How to build the Freifunk Helgoland Firmware
-    
+
     git clone https://github.com/freifunk-gluon/gluon.git                  # Get the official Gluon repository
     cd gluon
     git clone https://github.com/freifunk-helgoland/site-helgo.git site    # Get the Freifunk Helgoland site repository
@@ -11,5 +11,6 @@ Please see [the official Gluon repository](https://github.com/freifunk-gluon/glu
 
 #### Gluon versions used for specific Helgoland Freifunk Firmware builds
 
-- 0.6: v2014.4
-
+- 0.7.1:  v2015.1.1
+- 0.7:    skipped
+- 0.6:    v2014.4
