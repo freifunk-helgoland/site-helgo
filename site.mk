@@ -19,13 +19,14 @@ GLUON_SITE_PACKAGES := \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
+	fastd-traffic-status \
 	iwinfo \
 	iptables \
 	haveged
 
 
 
-DEFAULT_GLUON_RELEASE := 0.7.1
+DEFAULT_GLUON_RELEASE := 0.8~exp$(shell date '+%Y%m%d')
 # for experimental firmware:
 # DEFAULT_GLUON_RELEASE := 0.6+exp$(shell date '+%Y%m%d')
 
