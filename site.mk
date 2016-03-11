@@ -1,7 +1,6 @@
 GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-14 \
 	gluon-alfred \
-	gluon-announced \
 	gluon-autoupdater \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-core \
@@ -17,6 +16,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-next-node \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
+	gluon-respondd \
 	gluon-setup-mode \
 	gluon-status-page \
 	fastd-traffic-status \
@@ -26,7 +26,7 @@ GLUON_SITE_PACKAGES := \
 
 
 
-DEFAULT_GLUON_RELEASE := 0.8~exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.8
 # for experimental firmware:
 # DEFAULT_GLUON_RELEASE := 0.6+exp$(shell date '+%Y%m%d')
 
