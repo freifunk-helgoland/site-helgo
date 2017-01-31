@@ -27,7 +27,7 @@ GLUON_SITE_PACKAGES := \
 
 
 
-DEFAULT_GLUON_RELEASE := 0.8
+DEFAULT_GLUON_RELEASE := 0.8.1
 # for experimental firmware:
 # DEFAULT_GLUON_RELEASE := 0.6+exp$(shell date '+%Y%m%d')
 
