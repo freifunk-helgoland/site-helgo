@@ -3,7 +3,9 @@ GLUON_SITE_PACKAGES := \
 	gluon-alfred \
 	gluon-autoupdater \
 	gluon-config-mode-autoupdater \
+	gluon-config-mode-contact-info \
 	gluon-config-mode-core \
+	gluon-config-mode-geo-location \
 	gluon-config-mode-hostname \
 	gluon-config-mode-mesh-vpn \
 	gluon-config-mode-reboot-ffhh \
@@ -27,7 +29,7 @@ GLUON_SITE_PACKAGES := \
 
 
 
-DEFAULT_GLUON_RELEASE := 0.8.1
+DEFAULT_GLUON_RELEASE := 0.8.2
 # for experimental firmware:
 # DEFAULT_GLUON_RELEASE := 0.6+exp$(shell date '+%Y%m%d')
 
