@@ -17,15 +17,14 @@ msgstr ""
 "You're free to choose your own node name in the field below, so "
 "come up with something nice. This will be the name of the node in "
 "the network and has nothing to do with the broadcast network name (SSID). "
-"The latter is always helgoland.freifunk.net."
+"The latter is always <tt>helgoland.freifunk.net</tt>."
 
 msgid "gluon-config-mode:pubkey"
 msgstr ""
 "<p>This is the public key for your Freifunk node. You can only "
 "connect the node to the Helgoland mesh VPN after the key has been registered on "
 "the Freifunk Helgoland servers. "
-"Please register your key, the name of your node (<em><%=escape(hostname)%></em>), and a bit of additional info at "
-"<a href=\"http://formular.helgoland.freifunk.net/#/new?hostname=<%=escape(hostname)%>&key=<%=pubkey%>&mac=<%= sysconfig.primary_mac %>\" target=\"_blank\">http://formular.helgoland.freifunk.net/</a>.</p>"
+"Please transfer your key to the administration of our community. "
 "<div class=\"the-key\">"
 " # <%= escape(hostname) %>"
 " <br/>"
@@ -42,7 +41,25 @@ msgstr ""
 
 msgid "gluon-config-mode:nopubkey"
 msgstr ""
-"Please enter the name of your node "
-"(<em><%=escape(hostname)%></em>) and some additional information at "
-"<a href=\"http://formular.helgoland.freifunk.net/#/new?hostname=<%=escape(hostname)%>&mac=<%= sysconfig.primary_mac %>\" target=\"_blank\">http://formular.helgoland.freifunk.net/</a> "
-"."
+"A node registration is not needed. Everything works automatically. Have fun! "
+
+msgid "gluon-luci-node-role:role:node"
+msgstr "Normal Node"
+
+msgid "gluon-luci-node-role:role:temp"
+msgstr "Node not available 24/7"
+
+msgid "gluon-luci-node-role:role:mobile"
+msgstr "Mobile Node"
+
+msgid "gluon-luci-node-role:role:offloader"
+msgstr "VPN Offloader"
+
+msgid "gluon-luci-node-role:role:service"
+msgstr "Service Node"
+
+msgid "gluon-luci-node-role:role:test"
+msgstr "Test Node"
+
+msgid "gluon-luci-node-role:role:hidden"
+msgstr "Hidden Node"
