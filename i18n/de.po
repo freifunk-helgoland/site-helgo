@@ -25,6 +25,7 @@ msgstr ""
 "<p>Dies ist der öffentliche Schlüssel deines Freifunkknotens. Erst nachdem "
 "er auf den Servern des Helgoländer Freifunk-Projektes eingetragen wurde, "
 "kann sich dein Knoten mit dem Helgoländer Mesh-VPN verbinden. "
+"Bitte übermittle den Schlüssel an die Administration der Helgoländer Community. "
 "<div class=\"the-key\">"
 " # <%= escape(hostname) %>"
 " <br/>"
@@ -44,3 +45,24 @@ msgstr ""
 "<p>Eine Eintragung deines Knotens ist nicht erforderlich. Den Namen und "
 "die Koordinaten kannst du im Config-Mode jederzeit selber ändern. "
 "Die Informationen werden dann automatisch in die Karte übernommen.</p>"
+
+msgid "gluon-luci-node-role:role:node"
+msgstr "Normaler Knoten"
+
+msgid "gluon-luci-node-role:role:temp"
+msgstr "Knoten nicht 24/7 verfügbar"
+
+msgid "gluon-luci-node-role:role:mobile"
+msgstr "Mobiler Knoten"
+
+msgid "gluon-luci-node-role:role:offloader"
+msgstr "VPN Offloader"
+
+msgid "gluon-luci-node-role:role:service"
+msgstr "Knoten für Dienste"
+
+msgid "gluon-luci-node-role:role:test"
+msgstr "Knoten für Tests"
+
+msgid "gluon-luci-node-role:role:hidden"
+msgstr "Unsichtbarer Knoten"

@@ -11,6 +11,7 @@ Please see [the official Gluon repository](https://github.com/freifunk-gluon/glu
 
 #### Gluon versions used for specific Helgoland Freifunk Firmware builds
 
+- 0.9:    v2016.2.7 with batman_adv compat v15
 - 0.8.2:  v2016.2.7 new keys for new infrastructure
 - 0.8.1:  v2016.2.3
 - 0.8:    v2016.1.2
