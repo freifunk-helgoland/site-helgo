@@ -1,4 +1,4 @@
 GLUON_SITE_FEEDS='helgo_packages'
 
-PACKAGES_FFHH_PACKAGES_REPO=git://github.com/freifunk-helgoland/helgo-packages.git
-PACKAGES_FFHH_PACKAGES_COMMIT=241a9ba370c086ab27b030d6f4a7bda886859d2c
+PACKAGES_HELGO_PACKAGES_REPO=git://github.com/freifunk-helgoland/helgo-packages.git
+PACKAGES_HELGO_PACKAGES_COMMIT=241a9ba370c086ab27b030d6f4a7bda886859d2c
